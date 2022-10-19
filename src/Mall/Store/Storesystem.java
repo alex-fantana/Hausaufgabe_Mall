@@ -12,6 +12,12 @@ public abstract class Storesystem implements MallSystem {
     public long id;
     private List<Store> stores;
 
+    public Storesystem(String name, int maxCustomers, long id) {
+        this.name = name;
+        this.maxCustomers = maxCustomers;
+        this.id = id;
+    }
+
     public void addStore(Store x) {
         stores.add(x);
     }

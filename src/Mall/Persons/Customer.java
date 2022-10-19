@@ -10,6 +10,14 @@ public class Customer extends Person implements MallSystem {
     private double credit;
     public long id;
 
+    public Customer(String name, String vorname, List<Storesystem> stores, double credit, long id) {
+        super(name, vorname);
+        this.stores = stores;
+        this.credit = credit;
+        this.id = id;
+    }
+
+
     @Override
     public double retrieveProfit() {
         return this.credit;
