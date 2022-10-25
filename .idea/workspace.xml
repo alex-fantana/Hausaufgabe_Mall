@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mall/MallSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mall/Persons/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mall/Store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mall/Store/Storesystem.java" afterDir="false" />
+    <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="am mai bagat niste constructors si getter/setter ca is prost si am  uitat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/MallSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/MallSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Store/Storesystem.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,8 +57,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666180929719</updated>
-      <workItem from="1666180931076" duration="4567000" />
+      <workItem from="1666180931076" duration="5307000" />
+      <workItem from="1666627923176" duration="1293000" />
+      <workItem from="1666681810784" duration="422000" />
+      <workItem from="1666682252410" duration="561000" />
     </task>
+    <task id="LOCAL-00001" summary="Proiectu overall, mai modificam dupa">
+      <created>1666185808989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185808989</updated>
+    </task>
+    <task id="LOCAL-00002" summary="am mai bagat niste constructors si getter/setter ca is prost si am  uitat">
+      <created>1666186394019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666186394019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +92,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Proiectu overall, mai modificam dupa" />
+    <MESSAGE value="am mai bagat niste constructors si getter/setter ca is prost si am  uitat" />
+    <option name="LAST_COMMIT_MESSAGE" value="am mai bagat niste constructors si getter/setter ca is prost si am  uitat" />
   </component>
 </project>

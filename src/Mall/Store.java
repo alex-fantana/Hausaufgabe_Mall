@@ -1,13 +1,16 @@
-package Mall.Store;
+package Mall;
 
 import Mall.Persons.Customer;
 import Mall.Persons.Salesperson;
 
 import java.util.List;
 
-public class Store extends Storesystem {
+public class Store implements MallSystem {
+
     public Store(String name, int maxCustomers, long id, double profit) {
-        super(name, maxCustomers, id);
+        this.name = name;
+        this.maxCustomers = maxCustomers;
+        this.id = id;
         this.profit = profit;
     }
 
@@ -15,6 +18,9 @@ public class Store extends Storesystem {
         this.profit = profit;
     }
 
+    private String name;
+    private int maxCustomers;
+    long id;
     private double profit;
     private List<Salesperson> Verkaufer;
     private List<Customer> customers;
@@ -25,6 +31,11 @@ public class Store extends Storesystem {
 
     public void addVerkaufer(Salesperson x) {
         Verkaufer.add(x);
+    }
+
+    @Override
+    public List<Store> retrieveStores() {
+        return null;
     }
 
     @Override
@@ -41,4 +52,5 @@ public class Store extends Storesystem {
     public double retrieveProfit() {
         return this.profit;
     }
+
 }

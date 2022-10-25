@@ -1,7 +1,7 @@
 package Mall.Persons;
 
 import Mall.MallSystem;
-import Mall.Store.Storesystem;
+import Mall.Store;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ public abstract class Person implements MallSystem {
     }
 
     @Override
-    public List<Storesystem> retrieveStores() {
+    public List<Store> retrieveStores() {
         return null;
     }
 

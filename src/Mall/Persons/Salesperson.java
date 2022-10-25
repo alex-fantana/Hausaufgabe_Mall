@@ -1,7 +1,7 @@
 package Mall.Persons;
 
 import Mall.MallSystem;
-import Mall.Store.Store;
+import Mall.Store;
 
 public class Salesperson extends Person implements MallSystem {
     public Store store;
