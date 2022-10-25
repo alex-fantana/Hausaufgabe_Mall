@@ -1,16 +1,14 @@
 package Mall.Persons;
 
 import Mall.MallSystem;
-import Mall.Store;
+import Mall.Stores.Store;
 
 public class Salesperson extends Person implements MallSystem {
     public Store store;
-    public long id;
 
-    public Salesperson(String name, String vorname, Store store, long id) {
-        super(name, vorname);
+    public Salesperson(String name, String vorname, long id, Store store) {
+        super(name, vorname, id);
         this.store = store;
-        this.id = id;
     }
 
 

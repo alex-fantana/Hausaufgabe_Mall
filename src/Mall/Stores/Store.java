@@ -1,8 +1,9 @@
-package Mall;
+package Mall.Stores;
 
+import Mall.MallSystem;
 import Mall.Persons.Customer;
 import Mall.Persons.Salesperson;
-
+import Mall.Stores.Transaction;
 import java.util.List;
 
 public class Store implements MallSystem {
@@ -24,6 +25,8 @@ public class Store implements MallSystem {
     private double profit;
     private List<Salesperson> Verkaufer;
     private List<Customer> customers;
+
+    private List<Transaction> transactions;
 
     public void addCustomer(Customer x) {
         customers.add(x);

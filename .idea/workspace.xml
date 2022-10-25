@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="am mai bagat niste constructors si getter/setter ca is prost si am  uitat">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="am lasat numai Store fara Storesystem ca nu merita">
+      <change afterPath="$PROJECT_DIR$/src/Mall/Stores/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/MallSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/MallSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Store/Storesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Stores/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1666180931076" duration="5307000" />
       <workItem from="1666627923176" duration="1293000" />
       <workItem from="1666681810784" duration="422000" />
-      <workItem from="1666682252410" duration="561000" />
+      <workItem from="1666682252410" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="Proiectu overall, mai modificam dupa">
       <created>1666185808989</created>
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666186394019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="am lasat numai Store fara Storesystem ca nu merita">
+      <created>1666682852129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666682852129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proiectu overall, mai modificam dupa" />
     <MESSAGE value="am mai bagat niste constructors si getter/setter ca is prost si am  uitat" />
-    <option name="LAST_COMMIT_MESSAGE" value="am mai bagat niste constructors si getter/setter ca is prost si am  uitat" />
+    <MESSAGE value="am lasat numai Store fara Storesystem ca nu merita" />
+    <option name="LAST_COMMIT_MESSAGE" value="am lasat numai Store fara Storesystem ca nu merita" />
   </component>
 </project>
