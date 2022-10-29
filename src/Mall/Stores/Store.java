@@ -14,11 +14,34 @@ public class Store implements MallSystem {
         this.id = id;
         this.profit = profit;
     }
+    //ToDo
+    public void update_name(String s){
 
-    public void setProfit(double profit) {
-        this.profit = profit;
+    }
+    public void update_maxC(int x){
+
+    }
+    public void update_profit(double x){
+
+    }
+    public void delete_Verkaufer(Salesperson x){
+
+    }
+    public void delete_Customer(Customer x){
+
+    }
+    public void delete_Transaction(Transaction x){
+
+    }
+    public void addCustomer(Customer x) {
     }
 
+    public void addVerkaufer(Salesperson x) {
+
+    }
+    public void addTransaction(Transaction x){
+
+    }
     private String name;
     private int maxCustomers;
     long id;
@@ -28,13 +51,12 @@ public class Store implements MallSystem {
 
     private List<Transaction> transactions;
 
-    public void addCustomer(Customer x) {
-        customers.add(x);
+    public void show(){
+        System.out.println(name+" "+ id+" "+profit);
+        System.out.println("Liste Verkaufer: "+retrieveEmployees());
+        System.out.println("Liste Kunde: "+retrieveCustomers());
     }
 
-    public void addVerkaufer(Salesperson x) {
-        Verkaufer.add(x);
-    }
 
     @Override
     public List<Store> retrieveStores() {
@@ -54,6 +76,17 @@ public class Store implements MallSystem {
     @Override
     public double retrieveProfit() {
         return this.profit;
+    }
+
+    public List<Salesperson> getVerkaufer() {
+        return Verkaufer;
+    }
+
+    public void setVerkaufer(List<Salesperson> verkaufer) {
+        Verkaufer = verkaufer;
+    }
+    public void setProfit(double profit) {
+        this.profit = profit;
     }
 
 }

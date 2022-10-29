@@ -15,7 +15,19 @@ public abstract class Person implements MallSystem {
         this.vorname = vorname;
         this.id = id;
     }
+    //ToDo
+    public void update_name(String s){
 
+    }
+    public void update_vorname(String s){
+
+    }
+    public void delete_person(){
+
+    }
+    public void show(){
+        System.out.println(name+" "+vorname+" "+id+"\n");
+    }
     @Override
     public List<Store> retrieveStores() {
         return null;
@@ -51,4 +63,6 @@ public abstract class Person implements MallSystem {
     public void setVorname(String vorname) {
         this.vorname = vorname;
     }
+
+
 }

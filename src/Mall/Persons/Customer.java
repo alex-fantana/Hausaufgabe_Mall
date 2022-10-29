@@ -14,8 +14,13 @@ public class Customer extends Person implements MallSystem {
         this.stores = stores;
         this.credit = credit;
     }
+    //ToDo
+    public void update_stores(List<Store> s){
 
+    }
+    public void update_credit(double x){
 
+    }
     @Override
     public double retrieveProfit() {
         return this.credit;

@@ -10,8 +10,10 @@ public class Salesperson extends Person implements MallSystem {
         super(name, vorname, id);
         this.store = store;
     }
+    //ToDo
+    public void update_store(Store s){
 
-
+    }
     @Override
     public double retrieveProfit() {
         return store.retrieveProfit();
