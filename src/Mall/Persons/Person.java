@@ -5,6 +5,7 @@ import Mall.Stores.Store;
 
 import java.util.List;
 
+
 public abstract class Person implements MallSystem {
     private String name;
     private String vorname;
@@ -15,19 +16,19 @@ public abstract class Person implements MallSystem {
         this.vorname = vorname;
         this.id = id;
     }
-    //ToDo
-    public void update_name(String s){
 
+    public void update_name(String s) {
+        this.name = s;
     }
-    public void update_vorname(String s){
 
+    public void update_vorname(String s) {
+        this.vorname = s;
     }
-    public void delete_person(){
 
+    public void show() {
+        System.out.println(name + " " + vorname + " " + id + "\n");
     }
-    public void show(){
-        System.out.println(name+" "+vorname+" "+id+"\n");
-    }
+
     @Override
     public List<Store> retrieveStores() {
         return null;
@@ -63,6 +64,5 @@ public abstract class Person implements MallSystem {
     public void setVorname(String vorname) {
         this.vorname = vorname;
     }
-
 
 }

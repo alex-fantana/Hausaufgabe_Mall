@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="adaugat clasa tranzactii si lista cu tranzactii in Store.java, si pus ID in Person.java">
+    <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="am facut create si read. am lasat pentru alexia update si delete, header-ele functiilor sunt puse deja">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/Stores/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Stores/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mall/Stores/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Stores/Transaction.java" afterDir="false" />
     </list>
@@ -43,6 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Desktop/Hausaufgabe_Mall-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,7 +59,10 @@
       <workItem from="1666627923176" duration="1293000" />
       <workItem from="1666681810784" duration="422000" />
       <workItem from="1666682252410" duration="2492000" />
-      <workItem from="1667065527662" duration="3512000" />
+      <workItem from="1667065527662" duration="6514000" />
+      <workItem from="1667211243336" duration="3322000" />
+      <workItem from="1667223087608" duration="28000" />
+      <workItem from="1667290479082" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="Proiectu overall, mai modificam dupa">
       <created>1666185808989</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666686303340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="am facut create si read. am lasat pentru alexia update si delete, header-ele functiilor sunt puse deja">
+      <created>1667071221495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667071221495</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +110,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -113,6 +138,7 @@
     <MESSAGE value="am mai bagat niste constructors si getter/setter ca is prost si am  uitat" />
     <MESSAGE value="am lasat numai Store fara Storesystem ca nu merita" />
     <MESSAGE value="adaugat clasa tranzactii si lista cu tranzactii in Store.java, si pus ID in Person.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaugat clasa tranzactii si lista cu tranzactii in Store.java, si pus ID in Person.java" />
+    <MESSAGE value="am facut create si read. am lasat pentru alexia update si delete, header-ele functiilor sunt puse deja" />
+    <option name="LAST_COMMIT_MESSAGE" value="am facut create si read. am lasat pentru alexia update si delete, header-ele functiilor sunt puse deja" />
   </component>
 </project>

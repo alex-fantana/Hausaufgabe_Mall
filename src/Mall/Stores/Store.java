@@ -4,7 +4,8 @@ import Mall.MallSystem;
 import Mall.Persons.Customer;
 import Mall.Persons.Salesperson;
 import Mall.Stores.Transaction;
-import java.util.List;
+
+import java.util.*;
 
 public class Store implements MallSystem {
 
@@ -13,35 +14,50 @@ public class Store implements MallSystem {
         this.maxCustomers = maxCustomers;
         this.id = id;
         this.profit = profit;
+        this.transactions = Collections.<Transaction>emptyList();
+        this.customers = Collections.<Customer>emptyList();
+        this.Verkaufer = Collections.<Salesperson>emptyList();
     }
-    //ToDo
-    public void update_name(String s){
+
+    public void update_name(String s) {
+        this.name = s;
 
     }
-    public void update_maxC(int x){
+
+    public void update_maxC(int x) {
+        this.maxCustomers = x;
 
     }
-    public void update_profit(double x){
+
+    public void update_profit(double x) {
+        this.profit = x;
 
     }
-    public void delete_Verkaufer(Salesperson x){
 
+    public void delete_Verkaufer(Salesperson x) {
+        Verkaufer.remove(x);
     }
-    public void delete_Customer(Customer x){
 
+    public void delete_Customer(Customer x) {
+        customers.remove(x);
     }
-    public void delete_Transaction(Transaction x){
 
+    public void delete_Transaction(Transaction x) {
+        transactions.remove(x);
     }
+
     public void addCustomer(Customer x) {
+        customers.add(x);
     }
 
     public void addVerkaufer(Salesperson x) {
-
+        Verkaufer.add(x);
     }
-    public void addTransaction(Transaction x){
 
+    public void addTransaction(Transaction x) {
+        transactions.add(x);
     }
+
     private String name;
     private int maxCustomers;
     long id;
@@ -51,10 +67,10 @@ public class Store implements MallSystem {
 
     private List<Transaction> transactions;
 
-    public void show(){
-        System.out.println(name+" "+ id+" "+profit);
-        System.out.println("Liste Verkaufer: "+retrieveEmployees());
-        System.out.println("Liste Kunde: "+retrieveCustomers());
+    public void show() {
+        System.out.println(name + " " + id + " " + profit);
+        System.out.println("Liste Verkaufer: " + retrieveEmployees());
+        System.out.println("Liste Kunde: " + retrieveCustomers());
     }
 
 
@@ -85,8 +101,17 @@ public class Store implements MallSystem {
     public void setVerkaufer(List<Salesperson> verkaufer) {
         Verkaufer = verkaufer;
     }
+
     public void setProfit(double profit) {
         this.profit = profit;
+    }
+
+    public void setCustomers(List<Customer> cust) {
+        customers = cust;
+    }
+
+    public void setTransactions(List<Transaction> trans) {
+        transactions = trans;
     }
 
 }

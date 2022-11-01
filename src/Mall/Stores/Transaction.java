@@ -17,13 +17,11 @@ public class Transaction {
         this.data = data;
         this.sum = sum;
     }
-    public void show(){
-        System.out.println(CustomerId+" "+SalesPersonId+" "+StoreId+" "+data+" "+sum);
-    }
-    //ToDo
-    public void delete_transaction(){
 
+    public void show() {
+        System.out.println(CustomerId + " " + SalesPersonId + " " + StoreId + " " + data + " " + sum);
     }
+
     public long getCustomerId() {
         return CustomerId;
     }
