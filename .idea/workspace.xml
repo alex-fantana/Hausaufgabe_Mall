@@ -5,10 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58259b4e-b32b-4d0a-a3b1-def2b0f1c223" name="Changes" comment="am facut create si read. am lasat pentru alexia update si delete, header-ele functiilor sunt puse deja">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_azure_msal4j_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_11_2_0_jre11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Persons/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Stores/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Stores/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mall/Stores/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mall/Stores/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hausaufgabe_Mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hausaufgabe_Mall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/MallSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mall/MallSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mall/Persons/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mall/Persons/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Persons/Salesperson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mall/Persons/Salesperson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Stores/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mall/Stores/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mall/Stores/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mall/Stores/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +47,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -35,18 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Desktop/Hausaufgabe_Mall-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Alex/Desktop/Hausaufgabe_Mall-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +97,8 @@
       <workItem from="1667211243336" duration="3322000" />
       <workItem from="1667223087608" duration="28000" />
       <workItem from="1667290479082" duration="985000" />
+      <workItem from="1670532313583" duration="82000" />
+      <workItem from="1670532426838" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="Proiectu overall, mai modificam dupa">
       <created>1666185808989</created>
